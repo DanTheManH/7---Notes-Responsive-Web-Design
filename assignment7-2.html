@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Responsive Web Design Notes </title>
+
+        <!--
+        Daniel Hernandez
+        Assignment: Responsive Web Design Notes
+        October 13th, 2022
+        -->
+
+        <style>
+            body {
+                margin: auto;
+                font-size: 18px;
+                line-height: 1.5em;
+                max-width: 85%;
+                background-color: #f3f3f3;
+                color: slategray;
+                font-family: Roboto, sans-serif;
+            }
+
+            h1 {
+                border-bottom: thin dotted;
+            }
+
+            h1,
+            h2 {
+                font-weight: 400;
+            }
+
+            @media screen and (min-width: 750px) {
+                h1 {
+                    font-size: 1.5em;
+                }
+
+                h2 {
+                    font-size: 1.25em;
+                }
+            }
+
+            @media screen and (max-width: 749px) {
+                body {
+                    line-height: 1.2em;
+                }
+
+                h1 {
+                    font-size: 1.25em;
+                }
+
+                h2 {
+                    font-size: 1.1em;
+                }
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1> Responsive Web Design Notes </h1>
+            <h2> Lesson 16: Understanding the Importance of Responsive Web Design </h2>
+                <section> What You'll Learn in this Lesson 
+                    <ul>
+                        <li> What is responsive web design (RWD) </li>
+                        <li> Why we need RWD </li>
+                        <li> What is progressive enhancement </li>
+                        <li> How to write HTML that's RWD ready </li>
+                    </ul>
+                </section> 
+                <p> Responsive design involves looking at how customers interact with websites and attempting to create a site that works best for all customers, as they arrive on the site. In this lesson you will learn what responsive web design is and why it's important. You'll learn about the theory of progressive enhancement and how the HTML you write affects whether your pages can be made responsive. But most importantly, you will start down the path of a responsible web designer who creates pages that work well and look great no matter what type of device they are viewed on. </p>
+                <p> Responsive web design (RWD) is an approach to web design that considers the customer's device and adapts the design for optimal viewing. RWD helps web designers and site owners by creating an “edit once, display anywhere” website. The web designer builds one page that can then be viewed on a wide-screen desktop or a small-screen cell phone without a change to another site or another page opening. The content on the page moves around in the design to suit the device being used to view the page. </p>
+            <h2> Lesson 17: Designing for Mobile Devices </h2>
+                <section> What You'll Learn in This Lesson 
+                    <ul>
+                        <li> How mobile design differs from standard web design </li>
+                        <li> What the Mobile First design philosophy is </li>
+                        <li> How Mobile First is important to RWD </li>
+                        <li> How to build responsive tables and images for mobile devices </li>
+                        <li> How to use CSS columns to create responsive designs without media queries </li>
+                    </ul>
+                </section>
+                <p> In this lesson you will learn all about mobile web design—why to do it, how to do it, and some specific techniques for doing it. Mobile web design isn't the same as responsive web design, but it's an important consideration when you're trying to build a responsive website. </p>
+                <p> Designing a site for mobile devices is more than just testing on your phone after you've launched the site. The best mobile designs treat mobile devices as if they are just as important as, if not more important than, desktop computers. This is a difficult leap for many web designers to make. After all, they are most likely building their pages on a computer rather than a tablet or phone, and most courses on web design (including, to some extent, this one) focus on computers as the primary design platform. </p>
+            <h2> Lesson 18: Using Media Queries and Breakpoints </h2>
+                <section> What You'll Learn in this Lesson 
+                    <ul>
+                        <li> How to write a CSS media query </li>
+                        <li> How to use different media types </li>
+                        <li> How to create media query expressions </li>
+                        <li> Understanding logical keywords in your queries </li>
+                        <li> What CSS breakpoints are </li>
+                        <li> How to define breakpoints </li>
+                        <li> How to find the best breakpoints for your website </li>
+                    </ul>
+                </section>
+                <p> According to the W3C, a media query is a “logical expression that is either true or false. A media query is true if the media type of the media query matches the media type of the device.…” What this is saying is that a web designer can use a media query to define if/then statements based on the characteristics of the device viewing the page. </p>
+                <p> Breakpoints are the points where media queries adjust the design. Even if you have only one breakpoint, your web page will respond to the presence of that breakpoint and respond appropriately to user agents that match. In this lesson you will learn what breakpoints are and how to use them. Plus, you'll learn what makes good breakpoints to support a wide variety of devices. </p>
+
+    </body>
+
+</html>
+
+
